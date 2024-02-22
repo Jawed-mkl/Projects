@@ -4,7 +4,7 @@
     overflow: hidden;
     border-radius: 10px;
     width: 350px;
-    height: 500px;
+    height: 630px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     box-sizing: border-box;
     margin: 100px auto;
@@ -74,11 +74,11 @@
 
 .form-container {
     width: 350px;
-    height: 550px;
+    height: 630px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 20px 30px;
+    padding: 0 30px 20px ;
   }
   
   .title {
@@ -114,6 +114,15 @@
     outline: 0 !important;
     box-sizing: border-box;
     padding: 12px 15px;
+  }
+
+  .p {
+    font-size: 9px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #747474;
+    text-decoration-color: #747474;
+    margin: 0;
   }
   
   .form-btn {
